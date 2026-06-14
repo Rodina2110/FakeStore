@@ -27,9 +27,6 @@ export default function Navbar() {
             <Link to="/" className="hover:text-blue-400 transition">
               Home
             </Link>
-            <a href="#about" className="hover:text-blue-400 transition">
-              About
-            </a>
           </div>
         </div>
 
@@ -39,9 +36,6 @@ export default function Navbar() {
             <Link to="/" className="block px-3 py-2 rounded-md hover:bg-slate-800 transition">
               Home
             </Link>
-            <a href="#about" className="block px-3 py-2 rounded-md hover:bg-slate-800 transition">
-              About
-            </a>
           </div>
         )}
       </div>
