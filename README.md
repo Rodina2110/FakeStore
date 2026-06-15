@@ -30,4 +30,4 @@ Please make sure you are writng it in the command prompt.
 That was all for this project!
 If you want to see more from me please visit my account
 Linked-in: https://www.linkedin.com/in/rodina-mohamed-335148309/
-or send an email for : rodymohamed2110@gmail.com
+or send an email to : rodymohamed2110@gmail.com
