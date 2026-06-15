@@ -9,12 +9,12 @@ In this read me file I will explain the following points:
 
 1. How to install the app?
 
-first, you need to install node modules using *npm install* or *npm i* in the command prompt.
+first, you need to install node modules using **npm install** or **npm i** in the command prompt.
 It will take every thing I used from the package.json file and download it.
 If you faced any problem please follow the instructions of the cmd 
 
 2. How to run the app?
-you can run the command *npm start* or *npm run built* to run the project.
+you can run the command **npm start** or *npm run built* to run the project.
 Please make sure you are writng it in the command prompt.
 
 3. The tools/libraries I used:
