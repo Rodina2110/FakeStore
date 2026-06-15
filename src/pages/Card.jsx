@@ -1,22 +1,5 @@
 import { Link } from 'react-router-dom';
 
-/**
- * Reusable Card Component
- * 
- * @param {Object} props - Component props
- * @param {string} props.id - Product ID for details link
- * @param {string} props.image - Product image URL
- * @param {string} props.title - Product title
- * @param {string} props.description - Product description
- * @param {number} props.price - Product price
- * @param {Object} props.rating - Rating object { rate, count }
- * @param {string} [props.category] - Product category (optional)
- * @param {string} [props.buttonText] - Custom button text (default: "View Details")
- * @param {Function} [props.onButtonClick] - Custom button click handler (optional, defaults to navigation)
- * @param {boolean} [props.showRating] - Show rating stars (default: true)
- * @param {string} [props.variant] - Card variant: 'default' | 'compact' | 'featured' (default: 'default')
- * @param {string} [props.className] - Additional CSS classes (optional)
- */
 export default function Card({
   id,
   image,
@@ -35,7 +18,7 @@ export default function Card({
     if (onButtonClick) {
       onButtonClick();
     }
-    // If no custom handler, navigation happens via Link
+
   };
 
   // Base card styles
@@ -70,7 +53,7 @@ export default function Card({
 
       {/* Card Content */}
       <div className="p-4 flex flex-col flex-grow">
-        {/* Category Badge (optional) */}
+        {/* Category Badge */}
         {category && (
           <div className="mb-2">
             <span className="inline-block bg-blue-100 text-blue-800 px-2 py-1 rounded text-xs font-semibold capitalize">
@@ -96,7 +79,7 @@ export default function Card({
             ${price.toFixed(2)}
           </span>
 
-          {/* Rating (optional) */}
+          {/* Rating */}
           {showRating && rating && (
             <div className="flex items-center gap-1 bg-gray-100 px-2 py-1 rounded">
               <span className="text-yellow-400 text-sm">★</span>

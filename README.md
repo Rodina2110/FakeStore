@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+Hello There! This is Rodina the developer of this project.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+In this read me file I will explain the following points:
+1. How to install and run the app
+2. The tools/libraries I used 
+3. The challenges faced me
 
-## Available Scripts
+-----------------------------------------------------------------
 
-In the project directory, you can run:
+1. How to install the app?
 
-### `npm start`
+first, you need to install node modules using *npm install* or *npm i* in the command prompt.
+It will take every thing I used from the package.json file and download it.
+If you faced any problem please follow the instructions of the cmd 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2. How to run the app?
+you can run the command *npm start* or *npm run built* to run the project.
+Please make sure you are writng it in the command prompt.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+3. The tools/libraries I used:
+    1. I used axios because it is well known in fetching api data for react and I found it is suitable for my project
+    2. I used tailwind in styling my project because i offers various options for me more than bootstrap
+    3. I used react-router-dom for easy navigation between pages
+    4. I used react context to easily share data across components
+4. The challenges Faced me:
+    1. at first I used bootstrap for the styles of this project, but then it didn't end as what i wanted. I fixed the problem by using tailwind.
+    2. There was an older version of this project on github but I couldn't access it to upload these versions now. I had to delete the older version to upload this version. So, I downloaded the older version locally on my device and forced this version to upload on github.
+    3. The website of the api kept failing in connection only one time or two in 100 tries it could finally open so i can see my final project. So i added error handeling after loading it may either show the products or a network error.
+--------------------------------------------------------------------
+That was all for this project!
+If you want to see more from me please visit my account
+Linked-in: https://www.linkedin.com/in/rodina-mohamed-335148309/
+or send an email for : rodymohamed2110@gmail.com
