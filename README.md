@@ -31,3 +31,5 @@ That was all for this project!
 If you want to see more from me please visit my account
 Linked-in: https://www.linkedin.com/in/rodina-mohamed-335148309/
 or send an email to : rodymohamed2110@gmail.com
+-----------------------------------------------------------------------
+For deployed version please visit : https://fake-store-ten-beta.vercel.app/
